@@ -58,4 +58,4 @@ uv sync
 3. Lee et al., *GrokFast: Accelerated Grokking by Amplifying Slow Gradients*, [arXiv:2405.20233](https://arxiv.org/abs/2405.20233), 2024.
 4. Mindermann et al., *Prioritized Training on Points that are Learnable, Worth Learning, and Not Yet Learnt*, [arXiv:2206.07137](https://arxiv.org/abs/2206.07137), ICML 2022.
 5. Hong et al., *Diversified Batch Selection for Training Acceleration*, [arXiv:2406.04872](https://arxiv.org/abs/2406.04872), ICML 2024.
-6. Deng et al., *Bayesian Data Selection for Data-Efficient Training*, 2022. (unverified — no paper matching this title/author combination could be located)
+6. Yuntian Deng, Alexander M. Rush, and Graham Neubig. *Bayesian Data Selection for Data-Efficient Training*, arXiv preprint arXiv:2203.09635, 2022.
