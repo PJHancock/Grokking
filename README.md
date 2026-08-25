@@ -24,9 +24,10 @@ magnitude.
 This repo reproduces and extends those results, and asks a further question: does *online batch
 selection* — choosing which examples to train on each step, rather than sampling uniformly —
 change grokking dynamics, with or without GrokFast? We evaluate `FULL`, `UNIFORM`,
-`RHOLOSS` ([Mindermann et al., 2022](https://arxiv.org/abs/2206.07137)), `DIVBS`, and `BAYESIAN`
-batch selection strategies against a decoder-only Transformer on modular arithmetic and an MLP on
-MNIST, each with and without GrokFast-EMA.
+`RHOLOSS` ([Mindermann et al., 2022](https://arxiv.org/abs/2206.07137)), `DIVBS`
+([Hong et al., 2024](https://arxiv.org/abs/2406.04872)), and `BAYESIAN` batch selection strategies
+against a decoder-only Transformer on modular arithmetic and an MLP on MNIST, each with and
+without GrokFast-EMA.
 
 **Headline finding:** batch selection strategy makes little difference to when or how well grokking
 occurs (DivBS gives a marginal speedup at best); GrokFast dominates, cutting time-to-generalization
@@ -56,5 +57,5 @@ uv sync
 2. Liu et al., *Towards Understanding Grokking: An Effective Theory of Representation Learning*, [arXiv:2205.10343](https://arxiv.org/abs/2205.10343), NeurIPS 2022.
 3. Lee et al., *GrokFast: Accelerated Grokking by Amplifying Slow Gradients*, [arXiv:2405.20233](https://arxiv.org/abs/2405.20233), 2024.
 4. Mindermann et al., *Prioritized Training on Points that are Learnable, Worth Learning, and Not Yet Learnt*, [arXiv:2206.07137](https://arxiv.org/abs/2206.07137), ICML 2022.
-5. Hong et al., *Diversified Batch Selection for Online Learning*, ICLR 2021.
-6. Deng et al., *Bayesian Data Selection for Data-Efficient Training*, 2022.
+5. Hong et al., *Diversified Batch Selection for Training Acceleration*, [arXiv:2406.04872](https://arxiv.org/abs/2406.04872), ICML 2024.
+6. Deng et al., *Bayesian Data Selection for Data-Efficient Training*, 2022. (unverified — no paper matching this title/author combination could be located)
